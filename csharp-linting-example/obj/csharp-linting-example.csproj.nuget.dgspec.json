@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/test-linting-dotnet/csharp-linting-example/csharp-linting-example.csproj": {}
+    "/home/runner/work/test-linting-dotnet/test-linting-dotnet/csharp-linting-example/csharp-linting-example.csproj": {}
   },
   "projects": {
-    "/workspaces/test-linting-dotnet/csharp-linting-example/csharp-linting-example.csproj": {
+    "/home/runner/work/test-linting-dotnet/test-linting-dotnet/csharp-linting-example/csharp-linting-example.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/test-linting-dotnet/csharp-linting-example/csharp-linting-example.csproj",
+        "projectUniqueName": "/home/runner/work/test-linting-dotnet/test-linting-dotnet/csharp-linting-example/csharp-linting-example.csproj",
         "projectName": "csharp-linting-example",
-        "projectPath": "/workspaces/test-linting-dotnet/csharp-linting-example/csharp-linting-example.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/test-linting-dotnet/csharp-linting-example/obj/",
+        "projectPath": "/home/runner/work/test-linting-dotnet/test-linting-dotnet/csharp-linting-example/csharp-linting-example.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/test-linting-dotnet/test-linting-dotnet/csharp-linting-example/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -44,6 +44,8 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[1.1.118, )"
             }
@@ -64,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/runner/.dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

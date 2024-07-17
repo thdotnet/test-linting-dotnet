@@ -1,0 +1,15 @@
+/home/runner/work/test-linting-dotnet/test-linting-dotnet/csharp-linting-example/bin/Debug/net8.0/csharp-linting-example
+/home/runner/work/test-linting-dotnet/test-linting-dotnet/csharp-linting-example/bin/Debug/net8.0/csharp-linting-example.deps.json
+/home/runner/work/test-linting-dotnet/test-linting-dotnet/csharp-linting-example/bin/Debug/net8.0/csharp-linting-example.runtimeconfig.json
+/home/runner/work/test-linting-dotnet/test-linting-dotnet/csharp-linting-example/bin/Debug/net8.0/csharp-linting-example.dll
+/home/runner/work/test-linting-dotnet/test-linting-dotnet/csharp-linting-example/bin/Debug/net8.0/csharp-linting-example.pdb
+/home/runner/work/test-linting-dotnet/test-linting-dotnet/csharp-linting-example/obj/Debug/net8.0/csharp-linting-example.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/work/test-linting-dotnet/test-linting-dotnet/csharp-linting-example/obj/Debug/net8.0/csharp-linting-example.AssemblyInfoInputs.cache
+/home/runner/work/test-linting-dotnet/test-linting-dotnet/csharp-linting-example/obj/Debug/net8.0/csharp-linting-example.AssemblyInfo.cs
+/home/runner/work/test-linting-dotnet/test-linting-dotnet/csharp-linting-example/obj/Debug/net8.0/csharp-linting-example.csproj.CoreCompileInputs.cache
+/home/runner/work/test-linting-dotnet/test-linting-dotnet/csharp-linting-example/obj/Debug/net8.0/csharp-linting-example.sourcelink.json
+/home/runner/work/test-linting-dotnet/test-linting-dotnet/csharp-linting-example/obj/Debug/net8.0/csharp-linting-example.dll
+/home/runner/work/test-linting-dotnet/test-linting-dotnet/csharp-linting-example/obj/Debug/net8.0/refint/csharp-linting-example.dll
+/home/runner/work/test-linting-dotnet/test-linting-dotnet/csharp-linting-example/obj/Debug/net8.0/csharp-linting-example.pdb
+/home/runner/work/test-linting-dotnet/test-linting-dotnet/csharp-linting-example/obj/Debug/net8.0/csharp-linting-example.genruntimeconfig.cache
+/home/runner/work/test-linting-dotnet/test-linting-dotnet/csharp-linting-example/obj/Debug/net8.0/ref/csharp-linting-example.dll
