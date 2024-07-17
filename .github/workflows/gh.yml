@@ -36,6 +36,16 @@ jobs:
         cd csharp-linting-example
         dotnet build --no-restore -p:StyleCopAnalyzersEnabled=true
 
+    - name: Commit and Push Changes
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git add .
+        git commit -m 'Update linting and .editorconfig'
+        git push origin main
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
     - name: Format Code
       run: |
         cd csharp-linting-example
