@@ -1,0 +1,10 @@
+{
+    "settings": {
+      "documentationRules": {
+        "companyName": "TH Corp",
+        "copyrightText": "Copyright © {companyName}",
+        "xmlHeader": false
+      }
+    }
+  }
+  
