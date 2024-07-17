@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("csharp-linting-example")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1cfe23d6342b1dccd252a1d1322c86b392e7301")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f04ba6c4c3717be79817b2a582977a9fb665cc29")]
 [assembly: System.Reflection.AssemblyProductAttribute("csharp-linting-example")]
 [assembly: System.Reflection.AssemblyTitleAttribute("csharp-linting-example")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

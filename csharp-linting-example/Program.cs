@@ -1,13 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
+﻿// Copyright © TH Corp
+
 namespace SampleApp
 {
-class Program {
-static void Main(string[] args)
-{
-List<string> names = new List<string>(){"John","Jane","Doe"};
-foreach(var name in names) {Console.WriteLine(name);}
-Console.ReadKey();
-}
-}
+    using System;
+    using System.Collections.Generic;
+
+    internal class Program
+    {
+        private static void Main(string[] args)
+        {
+            List<string> names = new List<string>() { "John", "Jane", "Doe" };
+            foreach (var name in names)
+            {
+                Console.WriteLine(name);
+            }
+            Console.ReadKey();
+        }
+    }
 }
