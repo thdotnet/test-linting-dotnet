@@ -27,10 +27,16 @@ jobs:
         dotnet restore
 
     - name: Build Project
-      run: dotnet build --no-restore
+      run: |
+        cd csharp-linting-example
+        dotnet build --no-restore
 
     - name: Run StyleCop Analyzers
-      run: dotnet build --no-restore -p:StyleCopAnalyzersEnabled=true
+      run: |
+        cd csharp-linting-example
+        dotnet build --no-restore -p:StyleCopAnalyzersEnabled=true
 
     - name: Format Code
-      run: dotnet format
+      run: |
+        cd csharp-linting-example
+        dotnet format
