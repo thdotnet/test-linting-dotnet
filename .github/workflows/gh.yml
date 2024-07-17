@@ -36,6 +36,11 @@ jobs:
         cd csharp-linting-example
         dotnet build --no-restore -p:StyleCopAnalyzersEnabled=true
 
+    - name: Format Code
+      run: |
+        cd csharp-linting-example
+        dotnet format
+        
     - name: Commit and Push Changes
       run: |
         git config --global user.name 'github-actions'
@@ -46,7 +51,3 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Format Code
-      run: |
-        cd csharp-linting-example
-        dotnet format
